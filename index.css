@@ -1,11 +1,32 @@
+.solid_red{
+    border: 1px solid red;
+}
+
+.cat_container{
+    display: flex;
+    justify-content: center;
+}
+
+
 .cat{
+    display: flex;
+    flex-direction: row-reverse;
     width: 250px;
     height:auto;
 }
 
+.dog_container{
+    display: flex;
+    justify-content: center;
+}
 .dog{
     width: 250px;
     height:auto;
+}
+
+.fire_container{
+display: flex;
+   flex-direction: row-reverse;
 }
 
 .fire{
@@ -13,14 +34,25 @@
     height:auto;
 }
 
+.magic_container{
+
+}
 .magic{
     width: 250px;
     height:auto;
 }
 
+.robot_container{
+
+}
+
 .robot{
     width: 250px;
     height:auto;
+}
+
+.tesla_container{
+
 }
 
 .tesla{
